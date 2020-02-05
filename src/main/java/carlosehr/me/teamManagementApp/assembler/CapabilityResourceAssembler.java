@@ -21,7 +21,7 @@ public class CapabilityResourceAssembler implements RepresentationModelAssembler
                 linkTo(methodOn(CapabilityController.class).getCapability(entity.getId())).withRel("getThisCapability"),
                 linkTo(methodOn(CapabilityController.class).deleteCapability(entity.getId())).withRel("deleteThisCapability"),
                 linkTo(methodOn(CapabilityController.class).getAllCapabilities()).withRel("getAllCapabilities"),
-                new Link("http://localhost:8080/dashboard/"+entity.getId()).withRel("updateThisCapability")
+                new Link("https://team-management-application.herokuapp.com/dashboard/"+entity.getId()).withRel("updateThisCapability")
 
                 );
     }

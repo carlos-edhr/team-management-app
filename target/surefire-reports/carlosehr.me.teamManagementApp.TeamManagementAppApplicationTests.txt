@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: carlosehr.me.teamManagementApp.TeamManagementAppApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.529 s - in carlosehr.me.teamManagementApp.TeamManagementAppApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.274 s - in carlosehr.me.teamManagementApp.TeamManagementAppApplicationTests

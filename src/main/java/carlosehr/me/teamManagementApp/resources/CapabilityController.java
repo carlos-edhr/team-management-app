@@ -38,7 +38,7 @@ public class CapabilityController {
 
         return new CollectionModel<>(capabilityService.getAllCapabilities().stream()
                 .map(capability -> assembler.toModel(capability)).collect(Collectors.toList()),
-                new Link("http://localhost:8080/dashboard").withRel("createCapability")
+                new Link("https://team-management-application.herokuapp.com/dashboard").withRel("createCapability")
         );
     }
 
